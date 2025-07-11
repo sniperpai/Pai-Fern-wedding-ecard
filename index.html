@@ -6,7 +6,7 @@
     <title>Marut & Tanida - Wedding Invitation</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&family=Dancing+Script:wght@400;700&family=Great+Vibes&family=JetBrains+Mono:wght@400;700&family=Bree+Serif&display=swap" rel="stylesheet">
     <style>
         /* Custom styles for elegance and romance */
         body {
@@ -45,6 +45,17 @@
         h1, h2 {
             font-family: 'Playfair Display', serif; /* Elegant heading font */
             color: #8B4513; /* SaddleBrown for warmth */
+        }
+        .couple-names {
+            font-family: 'Great Vibes', cursive; /* Beautiful calligraphy font for names */
+            color: #8B4513; /* SaddleBrown for warmth */
+        }
+        .tanida-name {
+            font-family: 'Bree Serif', serif; /* Brooke Smith style font for Tanida */
+            color: #8B4513; /* SaddleBrown for warmth */
+        }
+        .prompt-font {
+            font-family: 'JetBrains Mono', monospace; /* Prompt/code style font */
         }
         p {
             color: #5a4b40; /* Darker text for contrast */
@@ -159,39 +170,42 @@
 <body>
     <div class="wedding-card">
         <p class="text-lg text-gray-600 mb-4">
-            With hearts full of love and joy,
+            The event you've been
+            <br>waiting for is finally here,
         </p>
-        <h1 class="text-5xl font-bold mb-2 leading-tight">
+        <h1 class="text-5xl font-bold mb-2 leading-tight couple-names">
             Tanida
         </h1>
-        <div class="name-separator"></div>
-        <h1 class="text-5xl font-bold mb-6 leading-tight">
+        <div class="flex items-center justify-center my-4">
+            <div class="name-separator"></div>
+            <span class="text-3xl font-bold mx-4 couple-names">&</span>
+            <div class="name-separator"></div>
+        </div>
+        <h1 class="text-5xl font-bold mb-6 leading-tight couple-names">
             Marut
         </h1>
         <p class="text-xl text-gray-700 mb-8">
-            invite you to share in the celebration of their marriage.
+            "WE'RE GETTING MARRIED!""
+            <br>
             <br>Please join us as we say "I do"
             <br>and begin our forever journey together.
         </p>
 
         <div class="mb-8">
             <p class="text-2xl font-semibold mb-2">
-                Sunday, September 28th, 2025
+                SUNDAY, SEPTEMBER 28th, 2025
             </p>
             <p class="text-xl text-gray-700 mb-3">
-                Ceremony begins at 18:00 (6:00 PM)
+                SIX O'CLOCK IN THE EVENING
             </p>
             <p class="text-lg text-gray-600 mb-2">
-                🎉 <strong>Evening Schedule:</strong>
+                🎉<strong>Evening Schedule:</strong>🎉
             </p>
             <p class="text-md text-gray-600 mb-1">
-                • 18:00 - Wedding Ceremony
-            </p>
-            <p class="text-md text-gray-600 mb-1">
-                • 19:30 - Dinner & Reception
+                6:00 PM Wedding Reception
             </p>
             <p class="text-md text-gray-600 mb-3">
-                • 21:00 - After Party & Dancing
+                9:00 PM After Partyyyyyyyyy
             </p>
             <p class="text-sm text-gray-500 italic">
                 Join us for a night of celebration, delicious food, and dancing under the stars!
@@ -207,9 +221,10 @@
             </a>
         </div>
 
-        <p class="text-xl text-gray-700 mb-10">
-            We would be honored by your presence.
+        <p class="text-xl text-gray-700 mb-2">
+            We can't wait to see you!
         </p>
+        <p class="text-sm text-gray-500 italic mb-10">*wink wink*</p>
 
         <!-- RSVP Section -->
         <div class="rsvp-section bg-gray-50 p-6 rounded-xl shadow-inner mb-8">
@@ -234,7 +249,7 @@
                 <button type="submit" class="btn-primary">Submit RSVP</button>
             </form>
             <p class="text-sm text-gray-600 mt-4">
-                After submitting, please kindly confirm your RSVP via Facebook Messenger to Marut Wasoontara or Tanida Laoboonsangiem.
+                After submitting, kindly confirm your RSVP via Facebook Messenger to Tanida Laoboonsangiem or Marut Wasoontara.
             </p>
         </div>
 
@@ -253,8 +268,7 @@
                 </iframe>
             </div>
             <p class="text-sm text-gray-600 mt-4">
-                Your special moments video from YouTube Shorts.
-                <br><em>Click anywhere on the page to start the video with sound!</em>
+                <em>Click anywhere on the page to start the video with sound!</em>
             </p>
         </div>
     </div>
